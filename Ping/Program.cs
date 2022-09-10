@@ -17,7 +17,7 @@ namespace Ping
             return CommandLineApplication.ExecuteAsync<Program>(args);
         }
 
-        [Option(Description = "Host name with schema, http://www.zkea.net")]
+        [Option(Description = "Host name with schema, https://ytsite.aqingyuan.repl.co")]
         public string Host { get; set; }
         [Option(Description = "Timeout seconds.")]
         public int Timeout { get; set; }
